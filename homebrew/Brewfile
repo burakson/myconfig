@@ -1,0 +1,9 @@
+tap 'homebrew/cask'
+
+brew 'git'
+brew 'tig'
+brew 'nvm'
+brew 'go'
+brew 'httpie'
+
+cask 'docker'

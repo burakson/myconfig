@@ -1,0 +1,49 @@
+set nocompatible
+filetype off
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
+
+Plugin 'wincent/command-t'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'luochen1990/rainbow'
+let g:rainbow_active = 1 "0
+
+Plugin 'jiangmiao/auto-pairs'
+Plugin  'scrooloose/nerdtree'
+
+let NERDTreeIgnore = [ '__pycache__',  '\.pyc$', '\.o$', '\.swp', '*\.swp', 'node_modules/' ]
+let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
+autocmd vimenter * NERDTree
+autocmd VimEnter * wincmd p
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+
+" Go
+Plugin 'fatih/vim-go'
+
+" Color scheme
+Plugin 'morhetz/gruvbox'
+colorscheme gruvbox
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set ruler
+set hidden
+
+syntax enable
