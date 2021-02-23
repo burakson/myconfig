@@ -22,6 +22,7 @@
 
 [pull]
     default = current
+    rebase = false
 
 [branch]
     sort = -committerdate
