@@ -5,5 +5,8 @@ brew 'tig'
 brew 'nvm'
 brew 'go'
 brew 'httpie'
+brew 'direnv'
 
 cask 'docker'
+cask 'iterm2'
+cask 'visual-studio-code'
