@@ -27,3 +27,5 @@
 [branch]
     sort = -committerdate
 
+[core]
+	excludesfile = /Users/burakson/.gitignore
