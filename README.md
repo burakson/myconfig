@@ -18,6 +18,7 @@ For two reasons:
 
 - Fork and clone it
 - Change config files with yours
+- Install homebrew
 - Run `make setup`
 
 _See all available commands via `make help`_

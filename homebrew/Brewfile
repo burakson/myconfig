@@ -1,4 +1,3 @@
-tap 'homebrew/cask'
 
 brew 'git'
 brew 'tig'
