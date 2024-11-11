@@ -250,6 +250,12 @@
         "options": {
           "full_name": "macdown"
         }
+      },
+      "postman": {
+        "version": "11.19.0",
+        "options": {
+          "full_name": "postman"
+        }
       }
     }
   },

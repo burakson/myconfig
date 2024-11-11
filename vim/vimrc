@@ -35,7 +35,6 @@ Plugin 'fatih/vim-go'
 
 " Color scheme
 Plugin 'morhetz/gruvbox'
-colorscheme gruvbox
 
 call vundle#end()            " required
 filetype plugin indent on    " required
