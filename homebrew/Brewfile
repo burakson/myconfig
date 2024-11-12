@@ -5,6 +5,7 @@ brew 'nvm'
 brew 'go'
 brew 'httpie'
 brew 'direnv'
+brew 'awscli'
 
 cask 'docker'
 cask 'iterm2'

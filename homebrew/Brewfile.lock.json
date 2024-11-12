@@ -224,6 +224,45 @@
             }
           }
         }
+      },
+      "awscli": {
+        "version": "2.19.5",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sequoia": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:6fce7809e76b396f6525fab65ef44a50a09f22c09445e8889f9694ba3bffb411",
+              "sha256": "6fce7809e76b396f6525fab65ef44a50a09f22c09445e8889f9694ba3bffb411"
+            },
+            "arm64_sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:67643f5e3f29e8e02bef2f1a8fa580b93c5895bf5c1cedaa85a281f74c0f8e1b",
+              "sha256": "67643f5e3f29e8e02bef2f1a8fa580b93c5895bf5c1cedaa85a281f74c0f8e1b"
+            },
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:11b4e4c3cf98042da5f10c33c6b54be0a649821f417b8df18ed2b50ee5ff5a9d",
+              "sha256": "11b4e4c3cf98042da5f10c33c6b54be0a649821f417b8df18ed2b50ee5ff5a9d"
+            },
+            "sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:58a332c26a1e74facd6047ff0a77905d0d1606c3d736308e3cdfa90ced13f40f",
+              "sha256": "58a332c26a1e74facd6047ff0a77905d0d1606c3d736308e3cdfa90ced13f40f"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:406f1cf491bcbec84bdfec4542c064d7ae9a291dd91ff7fb3c6ca7ec96c4f992",
+              "sha256": "406f1cf491bcbec84bdfec4542c064d7ae9a291dd91ff7fb3c6ca7ec96c4f992"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:0149ef8303c01a1b50303856b375caca25a9345f885256a070e49a81875a6059",
+              "sha256": "0149ef8303c01a1b50303856b375caca25a9345f885256a070e49a81875a6059"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -234,7 +273,7 @@
         }
       },
       "iterm2": {
-        "version": "3.5.6",
+        "version": "3.5.7",
         "options": {
           "full_name": "iterm2"
         }
@@ -274,7 +313,7 @@
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "16.1.0.0.1.1729049160",
-        "Xcode": "16.0",
+        "Xcode": "16.1",
         "macOS": "15.1"
       }
     }
